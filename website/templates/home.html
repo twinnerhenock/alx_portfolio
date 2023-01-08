@@ -1,0 +1,142 @@
+{% extends "base.html" %} {% block title %} ETRE{% endblock %} {% block content %}
+
+<h1 align="center">Welcome To Ethiopian Toll Roads Enterprise</h1>
+	<link rel="stylesheet" href="style.css">
+	<style>
+  .dropdown-btn {
+      background-color: #df4356;
+	  color: black;
+	  padding: 16px;
+	  font-size: 20px;
+	  border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu {
+    display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 150px;
+	box-shadow: 5px 16px 16px 8px rgba(0,0,0,0.4);
+	z-index: 1;
+  }
+  .dropdown-menu a {
+      color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+  }
+	 .dropdown-menu a:hover {
+        background-color: #cccccc;
+   }
+	 .dropdown:hover .dropdown-menu {
+        display: block;
+   }
+</style>
+</head>
+<body>
+   <h2> Explore Traffic</h2>
+   <div class="dropdown">
+	  <button class="dropdown-btn">Select</button>
+	  <div class="dropdown-menu">
+		  <a href="static/pie_chart_flow.png">Pie-chart</a>
+		  <a href="/dash/">Line-chart</a>
+		  <a href="/dash/">Box-plot</a>
+		
+		
+	  </div>
+	</div>
+</body>
+<style>
+  .dropdown-btn {
+      background-color: #df4356;
+	  color: black;
+	  padding: 16px;
+	  font-size: 20px;
+	  border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu {
+    display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 150px;
+	box-shadow: 5px 16px 16px 8px rgba(0,0,0,0.4);
+	z-index: 1;
+  }
+  .dropdown-menu a {
+      color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+  }
+	 .dropdown-menu a:hover {
+        background-color: #cccccc;
+   }
+	 .dropdown:hover .dropdown-menu {
+        display: block;
+   }
+</style>
+</head>
+<body>
+   <h2> Predict Traffic</h2>
+   <div class="dropdown">
+	  <button class="dropdown-btn">Select</button>
+	  <div class="dropdown-menu">
+		  <a href="/dash/">LSTM</a>
+		  <a href="/dash/">GRU-model</a>
+		<a href="/dash/">Bi-LSTM</a>
+	  </div>
+	</div>
+</body>
+
+<style>
+body {
+  background-image: url('static/tulu_pic.jpg');
+  opacity:0.9;
+  background-repeat: no-repeat;
+
+}
+</style>
+
+<center>
+	<img src="{{href}}" height=600/>
+	<form method="POST" >
+		<label>Input comma separated list of integers for horizon_size & history_size to generate new prediction </label>
+		<Input name="text">
+		<Input type="submit">
+	</form>
+</center>
+<p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</p>
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+
+<form method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Feedback</button>
+  </div>
+  </form>
+ {% endblock %}
