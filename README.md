@@ -39,7 +39,9 @@ This web application can be run with python2 installed on any operating system. 
     * machine learning model is a folder to contain our saved model Long Short Term Memory(LSTM) .
 ## Features
 
-    * Upon clicking to the website's domain, user will be routed the landing page or login page. New users are required to signup before going to the home page. Then the home page has two features; either go to the dash board page or use the dropdown menus to observe plotly charts of ETRE's traffic flow. Below the home page default chart, there is an input field for the users to enter number of days or horizon period so that new prediction model result plotly chart is generated based on the horizon period entered from the user.
+    * Upon clicking to the website's domain, user will be routed the landing page or login page. 
+    * New users are required to signup before going to the home page. Then the home page has two features; either go to the dash board page or use the dropdown menus to observe plotly charts of ETRE's traffic flow. 
+    * Below the home page default chart, there is an input field for the users to enter number of days or horizon period so that new prediction model result plotly chart is generated based on the horizon period entered from the user.
 
 ## About Long Short Term Memory Model 
 
