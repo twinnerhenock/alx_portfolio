@@ -14,11 +14,10 @@ This is a 4-week project on Creating website for traffic flow data visualization
 This web application can be run with python2 installed on any operating system. All the required dependencies are found in <a href="https://github.com/twinnerhenock/alx_portfolio/blob/master/requirements.txt">requiremetns.txt </a>.
 
 ## Setup
-        * Upgrade your pip before proceeding to pip installation of the requirements. You dont need anaconda enviroment to be installed. Only tensor flow with pip installation is opt.
-	* Git is required for obtaining the code and keeping your codebase up to date. Obtain git for your distribution from <a href="https://github.com/topics/signup-page">here</a>
+* Upgrade your pip before proceeding to pip installation of the requirements. You dont need anaconda enviroment to be installed. Only tensor flow with pip installation is opt.
+* Git is required for obtaining the code and keeping your codebase up to date. Obtain git for your distribution from <a href="https://github.com/topics/signup-page">here </a>
 ## Manual installation on ubuntu operating system
-
-        * pip2 install --upgrade pip
+	* pip2 install --upgrade pip
 	* sudo apt update
 	* sudo apt install python2(for installing python version two)
 	* sudo apt install python3(for installing python version three)
