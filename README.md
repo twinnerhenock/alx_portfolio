@@ -9,6 +9,8 @@ This is a 4-week project on Creating website for traffic flow data visualization
 </tr>
 </table>
 
+![alt text](/.png)
+
 # Installation
 
 This web application can be run with python2 installed on any operating system. All the required dependencies are found in <a href="https://github.com/twinnerhenock/alx_portfolio/blob/master/requirements.txt">requiremetns.txt </a>.
@@ -43,7 +45,6 @@ For anyone interested in understanding the deep learning models, please visit th
 
 # Deployment
 
-This code is deployed on and hosted by <a href="https://www.pythonanywhere.com/">pythonanywhere</a>. Anyone interested to deploy a simple showcase webpp can create free account and get access to one time 500mb size application.
-
+This code is deployed on and hosted by <a href="https://www.pythonanywhere.com/">pythonanywhere</a>. Anyone interested to deploy a simple showcase webpp can create free account and get access to one time 500mb size application deployment.
 
 
