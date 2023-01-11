@@ -9,7 +9,7 @@ This is a 4-week project on Creating website for traffic flow data visualization
 </tr>
 </table>
 
-![alt text](/.png)
+![alt text](https://github.com/twinnerhenock/alx_portfolio/blob/master/website/static/logo_blog.png)
 
 # Installation
 
