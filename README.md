@@ -28,16 +28,18 @@ This web application can be run with python2 installed on any operating system. 
 # Usage
 
 * main.py
-        * <a href="https://github.com/twinnerhenock/alx_portfolio/tree/master/main.py">main.py </a> Its the entry point to our flask application
-        * Creates an instance of flask app by calling create_app() from website module.
+
+    * <a href="https://github.com/twinnerhenock/alx_portfolio/tree/master/main.py">main.py </a> Its the entry point to our flask application
+    * Creates an instance of flask app by calling create_app() from website module.
 
 * website module
-        * <a href="https://github.com/twinnerhenock/alx_portfolio/tree/master/website">webiste </a> Contains bule prints of our web page models, views and auth files; and aslo templates, static folders;and an init file to start our dash and flask app.
-        * Dataset csv files df_joined.csv and daily_tulu_data.csv for visualizing traffic flow of Ethiopian Toll Roads Enterprie is also contained in this module.
-        * ml_model is a folder to contain our saved model Long Short Term Memory(LSTM) .
+
+    * <a href="https://github.com/twinnerhenock/alx_portfolio/tree/master/website">webiste </a> Contains bule prints of our web page models, views and auth files; and aslo templates, static folders;and an init file to start our dash and flask app.
+    * Dataset csv files dfjoined.csv and dailytuludata.csv for visualizing traffic flow of Ethiopian Toll Roads Enterprie is also contained in this module.
+    * machine learning model is a folder to contain our saved model Long Short Term Memory(LSTM) .
 ## Features
 
-	* Upon clicking to the website's domain, user will be routed the landing page or login page. New users are required to signup before going to the home page. Then the home page has two features; either go to the dash board page or use the dropdown menus to observe plotly charts of ETRE's traffic flow. Below the home page default chart, there is an input field for the users to enter number of days or horizon period so that new prediction model result plotly chart is generated based on the horizon period entered from the user.
+    * Upon clicking to the website's domain, user will be routed the landing page or login page. New users are required to signup before going to the home page. Then the home page has two features; either go to the dash board page or use the dropdown menus to observe plotly charts of ETRE's traffic flow. Below the home page default chart, there is an input field for the users to enter number of days or horizon period so that new prediction model result plotly chart is generated based on the horizon period entered from the user.
 
 ## About Long Short Term Memory Model 
 
