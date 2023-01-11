@@ -13,10 +13,7 @@ import os
 import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 from joblib import load
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.offline import iplot
-import plotly.io as pio
+
 pio.kaleido.scope.default_format = "svg"
 import joblib
 
