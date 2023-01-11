@@ -33,4 +33,17 @@ This web application can be run with python2 installed on any operating system. 
         * <a href="https://github.com/twinnerhenock/alx_portfolio/tree/master/website">webiste </a> Contains bule prints of our web page models, views and auth files; and aslo templates, static folders;and an init file to start our dash and flask app.
         * Dataset csv files df_joined.csv and daily_tulu_data.csv for visualizing traffic flow of Ethiopian Toll Roads Enterprie is also contained in this module.
         * ml_model is a folder to contain our saved model Long Short Term Memory(LSTM) .
+## Features
+
+	* Upon clicking to the website's domain, user will be routed the landing page or login page. New users are required to signup before going to the home page. Then the home page has two features; either go to the dash board page or use the dropdown menus to observe plotly charts of ETRE's traffic flow. Below the home page default chart, there is an input field for the users to enter number of days or horizon period so that new prediction model result plotly chart is generated based on the horizon period entered from the user.
+
+## About Long Short Term Memory Model 
+
+For anyone interested in understanding the deep learning models, please visit the links <a href="https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21">here</a> for further explanation.
+
+# Deployment
+
+This code is deployed on and hosted by <a href="https://www.pythonanywhere.com/">pythonanywhere</a>. Anyone interested to deploy a simple showcase webpp can create free account and get access to one time 500mb size application.
+
+
 
